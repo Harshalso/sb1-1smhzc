@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background-color: #9333ea;
+  color: white;
+}
+
+.mole-button {
+  background-color: #22c55e;
+  border-radius: 40;
+}
+
+.empty-button {
+  background-color: #92400e;
+  border-radius: 40;
+}
+
+.progress-bar {
+  background-color: #e9d5ff;
+}
+
+Button {
+  android-elevation: 2;
+  android-dynamic-elevation-offset: 2;
+}
+
+Label {
+  text-wrap: true;
+}
